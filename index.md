@@ -11,6 +11,7 @@ title: "Sayantan Bhattacharya"
   width: 100%;
   overflow: hidden;
   z-index: 1;
+  margin-bottom: -5px;
 }
 
 .video-container video {
@@ -22,6 +23,7 @@ title: "Sayantan Bhattacharya"
 .content-wrapper {
   margin-top: 100vh;
   padding: 2rem;
+  margin-top: -5px;
 }
 
 .column.is-one-quarter {
