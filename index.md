@@ -2,6 +2,27 @@
 layout: page
 title : "Sayantan Bhattacharya"
 ---
+<head>
+  <style>
+    .column.is-one-quarter {
+      float: left;
+      margin-right: 1rem;
+    }
+
+    .column:last-child {
+      margin-bottom: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      .column.is-one-quarter {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 1rem;
+      }
+    }
+  </style>
+</head>
+
 <section class="section">
   <div class="container">
     <div class="columns">
