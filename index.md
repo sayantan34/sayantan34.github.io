@@ -31,6 +31,17 @@ title: " "
   animation: changeWord 5s infinite;
 }
 
+.overlay-text2 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: changeWord 5s infinite;
+}  
+
 @keyframes changeWord {
   0% {
     content: "My";
@@ -78,6 +89,8 @@ title: " "
   </video>
   <div class="overlay-text">
     <h1>Hi ! I'm Sayantan </h1>
+  </div>
+  <div class="overlay-text2">
     <h3>My research interest : <span class="changing-word"></span></h3>
   </div>
 </div>
