@@ -77,8 +77,8 @@ title: " "
     Your browser does not support the video tag.
   </video>
   <div class="overlay-text">
-    <h1>Hi ! I'm Sayantan . 
-    My research interest : <span class="changing-word"></span></h1>
+    <h1>Hi ! I'm Sayantan </h1>
+    <h3>My research interest : <span class="changing-word"></span></h3>
   </div>
 </div>
 
