@@ -16,7 +16,7 @@ title: " "
 
 .video-container video {
   object-fit: cover;
-  width: 100%;
+  width: 150%;
   height: 100%;
 }
 
