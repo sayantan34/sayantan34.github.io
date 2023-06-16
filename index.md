@@ -8,7 +8,7 @@ title: " "
   top: 0;
   left: 0;
   height: 100vh;
-  width: 100%;
+  width: 150%;
   overflow: hidden;
   z-index: 1;
   margin-bottom: -5px;
