@@ -20,6 +20,16 @@ title: "Sayantan Bhattacharya"
   height: 100%;
 }
 
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .content-wrapper {
   margin-top: 100vh;
   padding: 2rem;
@@ -50,6 +60,9 @@ title: "Sayantan Bhattacharya"
     <source src="ic10_timelapse.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+  <div class="overlay-text">
+    <h1>Welcome to my page</h1>
+  </div>
 </div>
 
 <div class="content-wrapper">
