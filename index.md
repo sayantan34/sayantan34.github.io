@@ -11,7 +11,7 @@ title: "Sayantan Bhattacharya"
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  z-index: -1;
+  z-index: 1;
 }
 
 .video-container video {
