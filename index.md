@@ -20,8 +20,24 @@ title : "Sayantan Bhattacharya"
         margin-bottom: 1rem;
       }
     }
+    .video-container {
+     width: 100%;
+     max-width: 100%;
+   }
+
+    .video-container video {
+      width: 100%;
+      height: auto;
+   }
   </style>
 </head>
+
+<div class="video-container">
+  <video controls autoplay>
+    <source src="ic10_timelapse.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 <section class="section">
   <div class="container">
