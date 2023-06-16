@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Sayantan Bhattacharya"
+title: " "
 ---
 
 <style>
