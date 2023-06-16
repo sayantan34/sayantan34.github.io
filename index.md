@@ -25,11 +25,28 @@ title: "Sayantan Bhattacharya"
   padding: 2rem;
 }
 
+.column.is-one-quarter {
+  float: left;
+  margin-right: 1rem;
+}
+
+.column:last-child {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+ .column.is-one-quarter {
+   float: none;
+   margin-right: 0;
+   margin-bottom: 1rem;
+  }
+}
+
 </style>
 
 <div class="video-container">
   <video autoplay muted loop>
-    <source src="/assets/video.mp4" type="video/mp4">
+    <source src="/assets/ic10_timelapse.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
