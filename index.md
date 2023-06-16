@@ -2,7 +2,9 @@
 layout: page
 title : "Sayantan Bhattacharya"
 ---
-![title](/assets/1.jpg){:height="200px" width="100px"}
+<div class="figure-container">
+ <img src="/assests/1.jpg" alt="Figure" width="100" height="200">
+</div>
  
  <p> I am a curious stargazer, eager to decipher the mysteries of the universe. Trained as a physicist I find my solace in the heart of nature. I have also keen interest in advanced computational techniques to make astronomy more interesting. 
 
