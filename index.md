@@ -33,16 +33,16 @@ title: " "
 
 @keyframes changeWord {
   0% {
-    content: "Welcome";
+    content: "My";
   }
   33% {
-    content: "to";
+    content: "research";
   }
   66% {
-    content: "my";
+    content: "interest :";
   }
   100% {
-    content: "page";
+    content: "X-ray Astronomy";
   }
 }
 
@@ -77,7 +77,8 @@ title: " "
     Your browser does not support the video tag.
   </video>
   <div class="overlay-text">
-    <h1>Welcome to my <span class="changing-word"></span></h1>
+    <h1>Hi ! I'm Sayantan . 
+    My research interest : <span class="changing-word"></span></h1>
   </div>
 </div>
 
@@ -115,7 +116,7 @@ title: " "
 // JavaScript to change the last word in the overlay text
 document.addEventListener("DOMContentLoaded", function() {
   var changingWord = document.querySelector(".changing-word");
-  var words = ["page", "website", "portfolio"];
+  var words = ["X-ray Astronomy", "Black Holes", "Massive Stars"];
   var index = 0;
   
   setInterval(function() {
