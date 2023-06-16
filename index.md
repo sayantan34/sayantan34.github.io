@@ -87,7 +87,7 @@ title: " "
     <div class="container">
       <div class="columns">
         <div class="column is-one-quarter">
-          <img src="/assets/1.jpg" alt="Figure" width="100" height="200">
+          <img src="1.jpg" alt="Figure" width="100" height="200">
         </div>
         <div class="column">
           <p>
