@@ -6,9 +6,9 @@ title: " "
 <style>
 .video-container {
   top: 0;
-  right: 0;
+  leftt: 0;
   height: 100vh;
-  width: 150%;
+  width: 100%;
   overflow: hidden;
   z-index: 1;
   margin-bottom: -5px;
@@ -16,13 +16,13 @@ title: " "
 
 .video-container video {
   object-fit: cover;
-  width: 150%;
+  width: 100%;
   height: 100%;
 }
 
 .overlay-text {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
