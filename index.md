@@ -6,7 +6,7 @@ title: " "
 <style>
 .video-container {
   top: 0;
-  leftt: 0;
+  left: 0;
   height: 100vh;
   width: 100%;
   overflow: hidden;
@@ -28,6 +28,22 @@ title: " "
   font-size: 2rem;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: changeWord 5s infinite;
+}
+
+@keyframes changeWord {
+  0% {
+    content: "Welcome";
+  }
+  33% {
+    content: "to";
+  }
+  66% {
+    content: "my";
+  }
+  100% {
+    content: "page";
+  }
 }
 
 .content-wrapper {
@@ -61,7 +77,7 @@ title: " "
     Your browser does not support the video tag.
   </video>
   <div class="overlay-text">
-    <h1>Welcome to my page</h1>
+    <h1>Welcome to my <span class="changing-word"></span></h1>
   </div>
 </div>
 
@@ -94,4 +110,18 @@ title: " "
     </div>
   </section>
 </div>
+
+<script>
+// JavaScript to change the last word in the overlay text
+document.addEventListener("DOMContentLoaded", function() {
+  var changingWord = document.querySelector(".changing-word");
+  var words = ["page", "website", "portfolio"];
+  var index = 0;
+  
+  setInterval(function() {
+    changingWord.textContent = words[index];
+    index = (index + 1) % words.length;
+  }, 2000);
+});
+</script>
 
