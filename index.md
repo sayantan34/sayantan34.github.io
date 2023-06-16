@@ -1,8 +1,7 @@
 ---
 layout: page
-title: "Sayantan Bhattacharya"
+title : "Sayantan Bhattacharya"
 ---
-
 <head>
   <style>
     .column.is-one-quarter {
@@ -36,6 +35,18 @@ title: "Sayantan Bhattacharya"
         </p>
       </div>
     </div>
+
+    <p>
+      I'm currently a PhD student at the Department of Physics and Applied Physics, University of Massachusetts, Lowell, MA. I also enjoy teaching undergraduate courses as a Graduate Teaching Assistant here.
+    </p>
+
+    <p>
+      I'm a member of Dr. Silas Laycock's astronomy research group at LoCSST, UMass Lowell. Here you can find more information about my background, research interests, projects, and publications.
+    </p>
+
+    <p>
+      For more information on any of my interests or to contact me personally, please feel free to reach out!
+    </p>
   </div>
 </section>
 
