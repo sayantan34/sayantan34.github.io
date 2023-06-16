@@ -26,4 +26,4 @@ Sayantan studied Master of science (MSc) Physics at University Of Hyderabad, Hyd
 
 Currently he is a PhD student at Department of Physics and Applied physics, University  Of Massachusetts, Lowell since September,2018. He also teaches undergraduate physics courses as a teaching assistant there. He performs his PhD studies on Observational astronomy in the group of Dr. Silas Laycock at LoCCST, Umass Lowell.
 
-<a href="/path/to/your/file.pdf" download class="download-button">Download CV</a>
+<a href="CV_Sayantan.pdf" download class="download-button">Download CV</a>
