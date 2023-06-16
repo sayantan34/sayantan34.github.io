@@ -1,0 +1,8 @@
+.figure-container {
+  float: left;
+  margin-right: 20px;
+}
+
+.figure-image {
+  max-width: 100%;
+}
