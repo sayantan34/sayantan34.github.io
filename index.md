@@ -21,13 +21,19 @@ title : "Sayantan Bhattacharya"
       }
     }
     .video-container {
+     position: fixed;
+     top: 0;
+     left: 0;
+     height: 100vh;
      width: 100%;
-     max-width: 100%;
+     overflow: hidden;
+     z-index: -1;;
    }
 
     .video-container video {
+      object-fit: cover;
       width: 100%;
-      height: auto;
+      height: 100%;
    }
   </style>
 </head>
