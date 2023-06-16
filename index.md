@@ -23,6 +23,7 @@ title: "Sayantan Bhattacharya"
 .content-wrapper {
   margin-top: 100vh;
   padding: 2rem;
+  z-index: 2
 }
 
 .column.is-one-quarter {
