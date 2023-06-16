@@ -46,7 +46,7 @@ title: "Sayantan Bhattacharya"
 
 <div class="video-container">
   <video autoplay muted loop>
-    <source src="/assets/ic10_timelapse.mp4" type="video/mp4">
+    <source src="ic10_timelapse.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
