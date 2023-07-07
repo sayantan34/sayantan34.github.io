@@ -14,14 +14,14 @@ title: "About Me"
   }
 </style>
 <style>
-  .profile-image {
-    width: 200px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
-    border-radius: 50%;
-    overflow: hidden;
-    float: right;
-    margin: 0 0 1rem 1rem; /* Adjust the margins as needed */
-  }
+ .profile-image {
+   width: 200px; /* Adjust the width as needed */
+   height: 200px; /* Adjust the height as needed */
+   border-radius: 50%;
+   overflow: hidden;
+   float: right;
+   margin: 0 1rem 1rem 0; /* Adjust the margins as needed */
+ }
   
   .profile-image img {
     width: 100%;
