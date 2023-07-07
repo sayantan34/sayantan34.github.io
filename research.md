@@ -2,7 +2,7 @@
 layout: default
 title: "Research"
 ---
-## [List Of Publications](/pubs)
+## [List Of Publications](research/pubs)
 
 # The Curious Case of IC 10 X-1
 
