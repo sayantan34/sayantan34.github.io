@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Subpage
+layout: Default
+title: "Publications"
 permalink: /research/pubs/
 ---
 
