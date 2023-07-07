@@ -18,8 +18,7 @@ a:hover {
 </style>
 
 <div class="container">
-  <h1>Centered Text</h1>
-  <p>Here is a <a href=/research/pubs>List Of Publications</a> </p>
+  <h1>Here is a <a href="/research/pubs">List Of Publications</a> </h1>
 </div>
 
 
