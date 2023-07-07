@@ -13,6 +13,9 @@ I'm one of the astronomers at Richard Schueller Observatory, Umass Lowell. We or
 
 We at Umass Lowell organize Science & Technology (STEM) fairs for school students ranging from primary to high schools. The astronomy department holds exhibitions showcasing exciting science experiments and engaging student activities.
 
+<img src="/assets/Sayantan-Ananya-with-Solarscope-Visitors_tcm18-350527.jpeg" alt="Figure" width="100" height="200"> 
+<img src="/assets/team-with-locsst-sign_tcm18-350528.jpeg" alt="Figure" width="100" height="200">
+
 # Talks & Teachs 
 
 I recently gave a virtual talk on Career opportunities in Physics and Astronomy at a youtube channel: EduCanteen. Link for the video. 
