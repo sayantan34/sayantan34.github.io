@@ -2,7 +2,7 @@
 layout: default
 title: "Research"
 ---
-# [List Of Publications](sayantan34.github.io/research/pubs)
+## [List Of Publications](/research/pubs)
 
 # The Curious Case of IC 10 X-1
 
