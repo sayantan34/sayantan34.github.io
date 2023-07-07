@@ -13,10 +13,29 @@ title: "About Me"
     border-radius: 5px;
   }
 </style>
+<style>
+  .profile-image {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
 
 # Research Interests
 
 High enrgy astrophysics, Pulsar astronomy , X-ray binary systems. Computational techniques for data driven astronomy, observational astronomy, spectroscopy, computational modelling, data analytics.
+
+<div class="profile-image">
+  <img src="/assets/1.jpg" alt="Profile Image">
+</div>
 
 # Short curriculum vitae
 
