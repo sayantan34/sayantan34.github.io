@@ -18,7 +18,7 @@ a:hover {
 </style>
 
 <div class="container">
-  <h1>Here is a <a href="/research/pubs">List Of Publications</a> </h1>
+  <h1><a href="/research/pubs">List Of Publications</a> </h1>
 </div>
 
 
