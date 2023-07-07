@@ -19,7 +19,8 @@ title: "About Me"
     height: 200px; /* Adjust the height as needed */
     border-radius: 50%;
     overflow: hidden;
-    margin: 0 auto;
+    float: right;
+    margin: 0 0 1rem 1rem; /* Adjust the margins as needed */
   }
   
   .profile-image img {
