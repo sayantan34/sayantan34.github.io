@@ -1,29 +1,48 @@
 ---
-layout: default
-title: "Research"
+layout: research
+title: Research
 ---
-<style>
-.container {
-  text-align: center;
-}
 
-a {
-  color: black;
-  text-decoration: none;
-}
+## X-ray Binary Systems
 
-a:hover {
-  color: blue;
-}
-</style>
+I study variability and timing behavior in X-ray binary systems to understand
+accretion processes onto compact objects. Using archival observational data,
+I analyze light curves and power spectra to characterize physical mechanisms
+driving high-energy emission.
 
-<div class="container">
-  <h1><a href="/research/pubs">List Of Publications</a> </h1>
-</div>
+**Methods**
+- Timing analysis
+- Fourier power spectra
+- Archival X-ray observations
 
+**Related publications**
+- [Paper title here](#)
+- [arXiv link](#)
 
-# The Curious Case of IC 10 X-1
+---
 
-# Blue Supergiant High Mass X-ray Binary Population in IC 10  
+## Massive Stars and High-Energy Emission
 
+My research investigates massive stellar systems and their high-energy radiation
+environments. I use observational datasets to explore stellar winds, feedback,
+and variability in extreme astrophysical environments.
 
+**Methods**
+- Spectral analysis
+- Multi-wavelength observations
+- Data modeling
+
+**Related publications**
+- [Paper title here](#)
+
+---
+
+## Computational Analysis
+
+I apply computational techniques to astrophysical datasets, including data
+processing, statistical analysis, and automation of observational pipelines.
+
+**Methods**
+- Python data analysis
+- Numerical modeling
+- Automated pipelines
