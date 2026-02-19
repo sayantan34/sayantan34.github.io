@@ -15,7 +15,7 @@ Teaching Assistant.
 
 ## Research Interests
 
-- X-ray astronomy
+- X-ray Binaries
 - Black hole systems
 - Massive stars
 - High-energy astrophysics
