@@ -3,139 +3,111 @@ layout: page
 title: " "
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
 <style>
-.video-container {
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  z-index: 1;
-  margin-bottom: -5px;
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  margin: 0;
 }
 
-.video-container video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+.hero {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
 }
 
-.overlay-text {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
+.hero img {
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #3b82f6;
+}
+
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-weight: 300;
+  color: #94a3b8;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 12px 22px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primary {
+  background: #3b82f6;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  animation: changeWord 5s infinite;
 }
 
-.overlay-text2 {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  animation: changeWord 5s infinite;
-}  
-
-@keyframes changeWord {
-  0% {
-    content: "My";
-  }
-  33% {
-    content: "research";
-  }
-  66% {
-    content: "interest :";
-  }
-  100% {
-    content: "X-ray Astronomy";
-  }
+.secondary {
+  border: 1px solid #64748b;
+  color: #e5e7eb;
 }
 
-.content-wrapper {
-  margin-top: 100vh;
-  padding: 2rem;
-  margin-top: -5px;
+.section {
+  padding: 60px 10%;
+  max-width: 900px;
+  margin: auto;
 }
 
-.column.is-one-quarter {
-  float: left;
-  margin-right: 1rem;
+.section h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
 }
 
-.column:last-child {
-  margin-bottom: 1rem;
+.section p {
+  line-height: 1.7;
+  color: #cbd5e1;
 }
-
-@media screen and (max-width: 768px) {
- .column.is-one-quarter {
-   float: none;
-   margin-right: 0;
-   margin-bottom: 1rem;
-  }
-}
-
 </style>
 
-<div class="video-container">
-  <video autoplay muted loop>
-    <source src="ic10_timelapse.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <div class="overlay-text">
-    <h1>Hi ! I'm Sayantan </h1>
+<section class="hero">
+  <img src="/assets/1.jpg" alt="Sayantan">
+  <h1>Sayantan Bhattacharya</h1>
+  <h2>Astrophysics • X-ray Astronomy • Computational Analysis</h2>
+
+  <div>
+    <a class="btn primary" href="/research">View Research</a>
+    <a class="btn secondary" href="/about">About Me</a>
   </div>
-  <div class="overlay-text2">
-    <h3>My research interest : <span class="changing-word"></span></h3>
-  </div>
-</div>
+</section>
 
-<div class="content-wrapper">
-  <!-- Rest of your content -->
-  <section class="section">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-one-quarter">
-          <img src="/assets/1.jpg" alt="Figure" width="100" height="200">
-        </div>
-        <div class="column">
-          <p>
-            I am a curious stargazer, eager to decipher the mysteries of the universe. Trained as a physicist, I find my solace in the heart of nature. I also have a keen interest in advanced computational techniques to make astronomy more interesting.
-          </p>
-        </div>
-      </div>
+<section class="section">
+  <h3>About</h3>
+  <p>
+    I am a curious stargazer passionate about deciphering the mysteries of the universe. 
+    Trained as a physicist, my work focuses on X-ray astronomy, compact objects, and 
+    computational techniques in astrophysical data analysis.
+  </p>
 
-      <p>
-        I'm currently a PhD student at the Department of Physics and Applied Physics, University of Massachusetts, Lowell, MA. I also enjoy teaching undergraduate courses as a Graduate Teaching Assistant here.
-      </p>
+  <p>
+    I am currently a PhD student at the Department of Physics and Applied Physics, 
+    University of Massachusetts Lowell, where I also serve as a Graduate Teaching Assistant.
+  </p>
+</section>
 
-      <p>
-        I'm a member of Dr. Silas Laycock's astronomy research group at LoCSST, UMass Lowell. Here you can find more information about my background, research interests, projects, and publications.
-      </p>
-
-      <p>
-        For more information on any of my interests or to contact me personally, please feel free to reach out!
-      </p>
-    </div>
-  </section>
-</div>
-
-<script>
-// JavaScript to change the last word in the overlay text
-document.addEventListener("DOMContentLoaded", function() {
-  var changingWord = document.querySelector(".changing-word");
-  var words = ["X-ray Astronomy", "Black Holes", "Massive Stars"];
-  var index = 0;
-  
-  setInterval(function() {
-    changingWord.textContent = words[index];
-    index = (index + 1) % words.length;
-  }, 2000);
-});
-</script>
-
+<section class="section">
+  <h3>Research Interests</h3>
+  <p>
+    • X-ray Astronomy  
+    • Black Hole Systems  
+    • Massive Stars  
+    • High-Energy Astrophysics  
+    • Data-Driven Astronomy  
+  </p>
+</section>
