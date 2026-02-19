@@ -20,3 +20,15 @@ Teaching Assistant.
 - Massive stars
 - High-energy astrophysics
 - Computational data analysis
+
+## Selected Work
+
+**Bhattacharya, S.**, et al.  
+*Timing Analysis of X-ray Binary Systems*  
+Monthly Notices of the Royal Astronomical Society
+
+**Bhattacharya, S.**, et al.  
+*XMM-Newton High-resolution Spectroscopy of EXO 0748–676 after Its Reemergence from a Long Quiescence*  
+The Astrophysical Journal
+
+Full publication list available on the Research page.
